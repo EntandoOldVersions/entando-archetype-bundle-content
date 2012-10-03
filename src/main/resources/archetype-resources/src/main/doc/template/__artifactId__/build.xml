@@ -13,11 +13,18 @@
 
 	<target name="restore-bundle-rest">
 		<!-- Place here as many as needed -->
-		<http 
-			url="http://localhost:8080/${webappname}/api/rs/en/jacms/contentType" 
+		<http
+			url="http://localhost:8080/${webappname}/api/rs/en/jacms/contentType"
 			method="POST"
 			expected="202"
 			printresponse="true" >
+			<query>
+				<!--
+						Default auth token for "admin".
+						Requires entando-plugin-jptokenapi
+				-->
+				<parameter name="entandoApiToken" value="571c5cc66e2e2783d5f43edfe74f0f91" />
+			</query>
 			<headers>
 				<header name="Content-Type" value="application/xml" />
 			</headers>
@@ -25,12 +32,13 @@
 		</http>
 
 <!-- Examples
-		<http 
-			url="http://localhost:8080/${webappname}/api/rs/en/jacms/content" 
+		<http
+			url="http://localhost:8080/${webappname}/api/rs/en/jacms/content"
 			method="POST"
 			expected="200"
 			printresponse="true" >
 			<query>
+				<parameter name="entandoApiToken" value="571c5cc66e2e2783d5f43edfe74f0f91" />
 				<parameter name="insertOnLine" value="true" />
 			</query>
 			<headers>
@@ -39,12 +47,13 @@
 			<entity file="content1.xml" />
 		</http>
 
-		<http 
-			url="http://localhost:8080/${webappname}/api/rs/en/jacms/content" 
+		<http
+			url="http://localhost:8080/${webappname}/api/rs/en/jacms/content"
 			method="POST"
 			expected="200"
 			printresponse="true" >
 			<query>
+				<parameter name="entandoApiToken" value="571c5cc66e2e2783d5f43edfe74f0f91" />
 				<parameter name="insertOnLine" value="true" />
 			</query>
 			<headers>
