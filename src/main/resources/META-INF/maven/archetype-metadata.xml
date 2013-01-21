@@ -8,12 +8,6 @@
 		<requiredProperty key="content-three-caps-letters-code" />
 	</requiredProperties>
 	<fileSets>
-		<fileSet filtered="true" encoding="UTF-8">
-			<directory>src/main/doc</directory>
-			<includes>
-				<include>**/*.xml</include>
-			</includes>
-		</fileSet>
 		<fileSet encoding="UTF-8">
 			<directory>src/main/java</directory>
 			<includes>
@@ -32,12 +26,6 @@
 			<includes>
 				<include>**/placeholder.txt</include>
 				<include>**/*.css</include>
-			</includes>
-		</fileSet>
-		<fileSet filtered="true" encoding="UTF-8">
-			<directory>src/main/sql</directory>
-			<includes>
-				<include>**/*.sql</include>
 			</includes>
 		</fileSet>
 		<fileSet filtered="true" packaged="true" encoding="UTF-8">

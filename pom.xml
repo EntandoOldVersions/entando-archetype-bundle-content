@@ -8,7 +8,7 @@
 	</parent>
 	<groupId>org.entando.entando</groupId>
 	<artifactId>entando-archetype-bundle-content</artifactId>
-	<version>experiment-bundles_with_bootstrap-SNAPSHOT</version>
+	<version>experiment-components-SNAPSHOT</version>
 	<packaging>maven-archetype</packaging>
 	<name>Entando: Archetype for Content Bundle</name>
 	<description>Content Bundle Archetype for Entando: an agile, modern and user-centric open source Portal platform.</description>

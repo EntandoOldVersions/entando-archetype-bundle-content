@@ -1,9 +1,0 @@
-<contentType>
-	<defaultModelId>1000x</defaultModelId>
-	<listModelId>100x1</listModelId>
-	<typeCode>${content-three-caps-letters-code}</typeCode>
-	<typeDescription>My Content Type</typeDescription>
-	<attributes>
-		....
-	</attributes>
-</contentType>
