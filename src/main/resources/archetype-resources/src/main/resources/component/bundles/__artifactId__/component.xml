@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <component>
 	<code>${artifactId}</code>
-	<description>Content Type: CHANGE ME IN src/main/resources/component/bundles/${artifactId}/component.xml</description>
+	<description>Content Type: ${content-three-caps-letters-code} - CHANGE ME IN src/main/resources/component/bundles/${artifactId}/component.xml</description>
 	<dependencies>
 		<code>jacms</code>
 	</dependencies>
