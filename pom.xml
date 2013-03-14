@@ -8,7 +8,7 @@
 	</parent>
 	<groupId>org.entando.entando</groupId>
 	<artifactId>entando-archetype-bundle-content</artifactId>
-	<version>3.2.0-SNAPSHOT</version>
+	<version>3.2.0</version>
 	<packaging>maven-archetype</packaging>
 	<name>Entando: Archetype for Content Bundle</name>
 	<description>Content Bundle Archetype for Entando.</description>
@@ -24,7 +24,8 @@
 		<connection>scm:git:git://github.com/entando/entando-archetype-bundle-content.git</connection>
 		<developerConnection>scm:git:git@github.com:entando/entando-archetype-bundle-content.git</developerConnection>
 		<url>https://github.com/entando/entando-archetype-bundle-content</url>
-	</scm>
+	  <tag>v3.2.0</tag>
+  </scm>
 	<developers>
 		<developer>
 			<id>w.ghelfi</id>
